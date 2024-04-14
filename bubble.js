@@ -1,13 +1,4 @@
 async function bubble() {
-    //Setting Time complexities
-    document.getElementById("Time_Worst").innerText="O(N^2)";
-    document.getElementById("Time_Average").innerText="Θ(N^2)";
-    document.getElementById("Time_Best").innerText="Ω(N)";
-
-    //Setting Space complexity
-    document.getElementById("Space_Worst").innerText="O(1)";
-
-    c_delay=0;
     console.log('In bubbe()');
     const ele = document.querySelectorAll(".bar");
     for(let i = 0; i < ele.length-1; i++){
